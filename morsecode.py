@@ -279,7 +279,7 @@ def encoding_sentence(english_sentence):
     result = ""
     encoded = []
     for c in text:
-        encoded.append(encoding_character(c.upper()) if c != " " else " ")
+        encoded.append(encoding_character(c.upper()) if c != " " else "")
 
     result = ' '.join(encoded)
 
